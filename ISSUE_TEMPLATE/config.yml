@@ -1,0 +1,55 @@
+name: "Issue"
+description: "Template padrão para bugs, features e pesquisas"
+title: "[TIPO] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "Preencha os campos abaixo."
+
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo
+      options:
+        - Bug
+        - Feature
+        - Pesquisa
+        - Outro
+    validations:
+      required: true
+
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: O que é isso e por que importa
+    validations:
+      required: true
+
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição
+      description: |
+        Bug: passos para reproduzir + comportamento esperado vs. atual
+        Feature: o que deve ser construído
+        Pesquisa: pergunta a responder e fontes já levantadas
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterio
+    attributes:
+      label: Critério de aceite / Entregável esperado
+      placeholder: |
+        - [ ]
+        - [ ]
+
+  - type: textarea
+    id: info
+    attributes:
+      label: Informações adicionais
+      description: Ambiente, links, referências
+    validations:
+      required: false
