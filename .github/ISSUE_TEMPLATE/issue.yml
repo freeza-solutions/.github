@@ -1,5 +1,5 @@
 name: "Issue"
-description: "Template padrão para bugs, features e pesquisas"
+description: "Template padrão para bugs, features e tasks"
 title: "[TIPO] "
 labels: []
 body:
@@ -14,7 +14,7 @@ body:
       options:
         - Bug
         - Feature
-        - Pesquisa
+        - Task
         - Outro
     validations:
       required: true
@@ -34,7 +34,7 @@ body:
       description: |
         Bug: passos para reproduzir + comportamento esperado vs. atual
         Feature: o que deve ser construído
-        Pesquisa: pergunta a responder e fontes já levantadas
+        Task: atividades mais pulverizadas e de acordo com a organização individual
     validations:
       required: true
 
