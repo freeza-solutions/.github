@@ -2,6 +2,7 @@
 name: Bug
 about: Reportar um comportamento inesperado
 labels: bug
+type: Bug
 ---
 
 ## Descrição
