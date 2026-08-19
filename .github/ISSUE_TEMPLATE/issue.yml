@@ -1,23 +1,11 @@
 name: "Issue"
 description: "Template padrão para bugs, features e tasks"
-title: "[TIPO] "
+title: "[TITULO] "
 labels: []
 body:
   - type: markdown
     attributes:
       value: "Preencha os campos abaixo."
-
-  - type: dropdown
-    id: tipo
-    attributes:
-      label: Tipo
-      options:
-        - Bug
-        - Feature
-        - Task
-        - Outro
-    validations:
-      required: true
 
   - type: textarea
     id: contexto
