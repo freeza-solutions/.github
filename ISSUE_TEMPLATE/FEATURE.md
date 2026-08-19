@@ -2,6 +2,7 @@
 name: Feature
 about: Propor uma nova funcionalidade
 labels: feature
+type: Feature
 ---
 
 ## Contexto
